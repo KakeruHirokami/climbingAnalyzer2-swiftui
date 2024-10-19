@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -47,6 +47,12 @@
 		B022AE592CC2A11500C62F99 /* ClimbingAnalyzer2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingAnalyzer2UITests.swift; sourceTree = "<group>"; };
 		B022AE5B2CC2A11500C62F99 /* ClimbingAnalyzer2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingAnalyzer2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B0CFE3762CC3F86A009BD1EA /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		B0CFE3772CC3F873009BD1EA /* View */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = View; sourceTree = "<group>"; };
+		B0CFE3782CC3F87A009BD1EA /* ViewModel */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModel; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B022AE362CC2A11200C62F99 /* Frameworks */ = {
@@ -96,6 +102,9 @@
 		B022AE3B2CC2A11200C62F99 /* ClimbingAnalyzer2 */ = {
 			isa = PBXGroup;
 			children = (
+				B0CFE3782CC3F87A009BD1EA /* ViewModel */,
+				B0CFE3772CC3F873009BD1EA /* View */,
+				B0CFE3762CC3F86A009BD1EA /* Model */,
 				B022AE3C2CC2A11200C62F99 /* ClimbingAnalyzer2App.swift */,
 				B022AE3E2CC2A11200C62F99 /* ContentView.swift */,
 				B022AE402CC2A11200C62F99 /* Item.swift */,
@@ -144,6 +153,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B0CFE3762CC3F86A009BD1EA /* Model */,
+				B0CFE3772CC3F873009BD1EA /* View */,
+				B0CFE3782CC3F87A009BD1EA /* ViewModel */,
 			);
 			name = ClimbingAnalyzer2;
 			productName = ClimbingAnalyzer2;
